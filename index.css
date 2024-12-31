@@ -1,0 +1,2399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    letter-spacing: -0.003rem; 
+}
+
+.container-body{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 2rem;
+    column-gap: 1rem;
+}
+
+.left-container{
+    width: 70%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-bar-section{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+
+}
+
+.three-top-button{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.yellow-container-button{
+    width: fit-content;
+    height: auto;
+    padding: 0.75rem;
+    background-color: #FFEA00;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.red-container-button{
+    width: fit-content;
+    height: auto;
+    padding: 0.75rem;
+    background-color: #FF5F37;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.blue-container-button{
+    width: fit-content;
+    height: auto;
+    padding: 0.75rem;
+    background-color: #2E5AEC;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+.presenting-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    column-gap: 0.5rem;
+    background-color: #EBEBEB;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+.presenting-bar p{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.conference-live-video_background{
+    width: 100%;
+    height: auto;
+    background-color: #b1b1b1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    position: relative;
+    border-radius: 0.5rem;
+    padding: 0rem;
+    overflow: hidden;
+   
+}
+
+
+.over-lay-container{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #FF5F37;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+}
+
+
+.reaction-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 1rem 2rem 1rem 2rem ;
+    background-color: #EBEBEB;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.heart-container{
+    cursor: pointer;
+}
+.thumbs-up-container{
+    cursor: pointer;
+}
+.celebration-container{
+    cursor: pointer;
+}
+.clapping-container{
+    cursor: pointer;
+}
+.laugh-container{
+    cursor: pointer;
+}
+
+.shocking-container{
+    cursor: pointer;
+}
+.thinking-container{
+    cursor: pointer;
+}
+.thumbs-down-container{
+    cursor: pointer;
+}
+
+
+.edit-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    column-gap: 1rem;
+}
+
+.arrow-and-mic-off{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow-up-container-new{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    background-color: #FF5F37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mic-off-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -0.5rem;
+    cursor: pointer;
+
+}
+
+.cc-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.smile-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #C7D2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow-up-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.hand-up-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.three-dots-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.phnoe-end-icon-container{
+    width: fit-content;
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #FF5F37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.right-container{
+    width: 30%;
+    height: 95vh;
+    background-color: #EBEBEB;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.Participants-and-chat-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-container{
+    width: 100%;
+    height: 4px;
+    background-color: #a7a7a7;
+}
+
+.Participants-button{
+    width: 50%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    background-color:  #EBEBEB;
+    border-radius: 0.5rem 0rem 0rem 0rem;
+}
+
+.chat-button{
+    width: 50%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 0rem 0.5rem 0rem 0rem;
+}
+
+.group-participant-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    overflow-y: scroll;
+    scrollbar-color: #9c9c9c;
+    scrollbar-width: 2rem;
+}
+
+.group-participant-container ::-webkit-scrollbar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.group-participant-container ::-webkit-scrollbar-thumb{
+    background-color: #1F1F1F;
+    width: 2rem;
+}
+
+.group-participant-container ::-webkit-scrollbar-track{
+    width: 2rem;
+    background-color: #adadad;
+}
+
+
+
+.first-participant-chat{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem 1rem 1rem 1rem;
+    column-gap: 0.5rem;
+    background-color: #F3F3F3;
+    border-radius: 0.5rem;
+
+}
+
+.Participant-and-time-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+}
+
+.p-and-t-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-and-t-container h3{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.p-and-t-container p{
+    font-size: small;
+    font-weight: 300;
+}
+
+.partici-chat{
+    width: 100%;
+    height: auto;
+}
+
+.partici-chat p{
+    font-size: small;
+    font-weight: 400;
+}
+
+.input-and-send-container{
+    width: 94%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+
+.input-container input{
+    width: 100%;
+    height: auto;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: medium;
+
+
+}
+
+.send-button-container{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1120px){
+    .container-body{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 1rem;
+    }
+    
+    .left-container{
+        width: 70%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-bar-section{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    
+    }
+    
+    .three-top-button{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    }
+    
+    .yellow-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #FFEA00;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .red-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .blue-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #2E5AEC;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    
+    .presenting-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        column-gap: 0.5rem;
+        background-color: #EBEBEB;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    
+    }
+    .presenting-bar p{
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .conference-live-video_background{
+        width: 100%;
+        height: auto;
+        background-color: #b1b1b1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 0rem;
+        overflow: hidden;
+       
+    }
+    
+
+    
+    .reaction-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+        padding: 1rem 2rem 1rem 2rem ;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    .heart-container{
+        cursor: pointer;
+    }
+    .thumbs-up-container{
+        cursor: pointer;
+    }
+    .celebration-container{
+        cursor: pointer;
+    }
+    .clapping-container{
+        cursor: pointer;
+    }
+    .laugh-container{
+        cursor: pointer;
+    }
+    
+    .shocking-container{
+        cursor: pointer;
+    }
+    .thinking-container{
+        cursor: pointer;
+    }
+    .thumbs-down-container{
+        cursor: pointer;
+    }
+    
+    
+    .edit-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        column-gap: 1rem;
+    }
+    
+    .arrow-and-mic-off{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .arrow-up-container-new{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .mic-off-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0.5rem;
+        cursor: pointer;
+    
+    }
+    
+    .cc-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .smile-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #C7D2FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .arrow-up-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    
+    .hand-up-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .three-dots-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .phnoe-end-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 2rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .right-container{
+        width: 30%;
+        height: 95vh;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+    .Participants-and-chat-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line-container{
+        width: 100%;
+        height: 4px;
+        background-color: #a7a7a7;
+    }
+    
+    .Participants-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color:  #EBEBEB;
+        border-radius: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .chat-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color: #F3F3F3;
+        border-radius: 0rem 0.5rem 0rem 0rem;
+    }
+    
+    .group-participant-container{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        overflow-y: scroll;
+        scrollbar-color: #9c9c9c;
+        scrollbar-width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-thumb{
+        background-color: #1F1F1F;
+        width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-track{
+        width: 2rem;
+        background-color: #adadad;
+    }
+    
+    
+    
+    .first-participant-chat{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 0.5rem;
+        background-color: #F3F3F3;
+        border-radius: 0.5rem;
+    
+    }
+    
+    .Participant-and-time-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    
+    }
+    
+    .p-and-t-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .p-and-t-container h3{
+        font-weight: 500;
+        font-size: medium;
+    }
+    
+    .p-and-t-container p{
+        font-size: small;
+        font-weight: 300;
+    }
+    
+    .partici-chat{
+        width: 100%;
+        height: auto;
+    }
+    
+    .partici-chat p{
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    .input-and-send-container{
+        width: 94%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+        
+    }
+    
+    .input-container input{
+        width: 100%;
+        height: auto;
+        background: none;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: medium;
+    
+    
+    }
+    
+    .send-button-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #F3F3F3;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:568px){
+
+    .container-body{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 1rem;
+    }
+    
+    .left-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-bar-section{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    
+    }
+    
+    .three-top-button{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 0.5rem;
+    }
+    
+    .yellow-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #FFEA00;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .red-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .blue-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #2E5AEC;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    
+    .presenting-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        column-gap: 0.5rem;
+        background-color: #EBEBEB;
+        padding: 0.5rem 0rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+    
+    }
+    .presenting-bar p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    
+    .conference-live-video_background{
+        width: 100%;
+        height: auto;
+        background-color: #b1b1b1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 0rem;
+        overflow: hidden;
+       
+    }
+    
+    
+    .over-lay-container{
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+    }
+    
+    
+    .reaction-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+        padding: 1rem 1.5rem 1rem 1.5rem ;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+    }
+    .heart-container{
+        cursor: pointer;
+    }
+    .thumbs-up-container{
+        cursor: pointer;
+    }
+    .celebration-container{
+        cursor: pointer;
+    }
+    .clapping-container{
+        cursor: pointer;
+    }
+    .laugh-container{
+        cursor: pointer;
+    }
+    
+    .shocking-container{
+        cursor: pointer;
+    }
+    .thinking-container{
+        cursor: pointer;
+    }
+    .thumbs-down-container{
+        cursor: pointer;
+    }
+    
+    
+    .edit-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        column-gap: 1rem;
+    }
+    
+    .arrow-and-mic-off{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .arrow-up-container-new{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .mic-off-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0.5rem;
+        cursor: pointer;
+    
+    }
+    
+    .cc-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .smile-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #C7D2FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .arrow-up-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    
+    .hand-up-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .three-dots-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .phnoe-end-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 2rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .right-container{
+        width: 100%;
+        height: 90vh;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .Participants-and-chat-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line-container{
+        width: 100%;
+        height: 4px;
+        background-color: #a7a7a7;
+    }
+    
+    .Participants-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color:  #EBEBEB;
+        border-radius: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .chat-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color: #F3F3F3;
+        border-radius: 0rem 0.5rem 0rem 0rem;
+    }
+    
+    .group-participant-container{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        overflow-y: scroll;
+        scrollbar-color: #9c9c9c;
+        scrollbar-width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-thumb{
+        background-color: #1F1F1F;
+        width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-track{
+        width: 2rem;
+        background-color: #adadad;
+    }
+    
+    
+    
+    .first-participant-chat{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 0.5rem;
+        background-color: #F3F3F3;
+        border-radius: 0.5rem;
+    
+    }
+    
+    .Participant-and-time-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    
+    }
+    
+    .p-and-t-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .p-and-t-container h3{
+        font-weight: 500;
+        font-size: medium;
+    }
+    
+    .p-and-t-container p{
+        font-size: small;
+        font-weight: 300;
+    }
+    
+    .partici-chat{
+        width: 100%;
+        height: auto;
+    }
+    
+    .partici-chat p{
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    .input-and-send-container{
+        width: 94%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+        
+    }
+    
+    .input-container input{
+        width: 100%;
+        height: auto;
+        background: none;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: medium;
+    
+    
+    }
+    
+    .send-button-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #F3F3F3;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+    .container-body{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+        column-gap: 1rem;
+    }
+    
+    .left-container{
+        width: 70%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-bar-section{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 0.5rem;
+    
+    }
+    
+    .three-top-button{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 0.5rem;
+    }
+    
+    .yellow-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #FFEA00;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .red-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .blue-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.75rem;
+        background-color: #2E5AEC;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    
+    .presenting-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        column-gap: 0.125rem;
+        background-color: #EBEBEB;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        border-radius: 0.5rem;
+    
+    }
+    .presenting-bar p{
+        font-size: xx-small;
+        font-weight: 100;
+    }
+    
+    .conference-live-video_background{
+        width: 100%;
+        height: auto;
+        background-color: #b1b1b1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 0rem;
+        overflow: hidden;
+       
+    }
+    
+    
+    .over-lay-container{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        position: absolute;
+        display: flex;
+    }
+    
+    
+    .reaction-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 1rem 2rem 1rem 2rem ;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+
+
+    
+    .heart-container{
+        cursor: pointer;
+    }
+    .thumbs-up-container{
+        cursor: pointer;
+    }
+    .celebration-container{
+        cursor: pointer;
+    }
+    .clapping-container{
+        cursor: pointer;
+    }
+    .laugh-container{
+        cursor: pointer;
+    }
+    
+    .shocking-container{
+        cursor: pointer;
+    }
+    .thinking-container{
+        cursor: pointer;
+    }
+    .thumbs-down-container{
+        cursor: pointer;
+    }
+    
+    
+    .edit-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        column-gap: 1rem;
+    }
+    
+    .arrow-and-mic-off{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .arrow-up-container-new{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .mic-off-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0.5rem;
+        cursor: pointer;
+    
+    }
+    
+    .cc-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .smile-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #C7D2FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .arrow-up-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    
+    .hand-up-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .three-dots-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .phnoe-end-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 2rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .right-container{
+        width: 30%;
+        height: 95vh;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    
+    .Participants-and-chat-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line-container{
+        width: 100%;
+        height: 4px;
+        background-color: #a7a7a7;
+    }
+    
+    .Participants-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color:  #EBEBEB;
+        border-radius: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .chat-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color: #F3F3F3;
+        border-radius: 0rem 0.5rem 0rem 0rem;
+    }
+    
+    .group-participant-container{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        overflow-y: scroll;
+        scrollbar-color: #9c9c9c;
+        scrollbar-width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-thumb{
+        background-color: #1F1F1F;
+        width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-track{
+        width: 2rem;
+        background-color: #adadad;
+    }
+    
+    
+    
+    .first-participant-chat{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 0.5rem;
+        background-color: #F3F3F3;
+        border-radius: 0.5rem;
+    
+    }
+    
+    .Participant-and-time-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    
+    }
+    
+    .p-and-t-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .p-and-t-container h3{
+        font-weight: 500;
+        font-size: medium;
+    }
+    
+    .p-and-t-container p{
+        font-size: small;
+        font-weight: 300;
+    }
+    
+    .partici-chat{
+        width: 100%;
+        height: auto;
+    }
+    
+    .partici-chat p{
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    .input-and-send-container{
+        width: 94%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+        
+    }
+    
+    .input-container input{
+        width: 100%;
+        height: auto;
+        background: none;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: medium;
+    
+    
+    }
+    
+    .send-button-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #F3F3F3;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:568px){
+
+    .container-body{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+        column-gap: 1rem;
+    }
+    
+    .left-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-bar-section{
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    
+    }
+    
+    .three-top-button{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 0.5rem;
+    }
+    
+    .yellow-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #FFEA00;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .red-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .blue-container-button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        background-color: #2E5AEC;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    
+    .presenting-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        column-gap: 0.5rem;
+        background-color: #EBEBEB;
+        padding: 0.5rem 0rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+    
+    }
+    .presenting-bar p{
+        font-size: medium;
+        font-weight: 400;
+    }
+    
+    .conference-live-video_background{
+        width: 100%;
+        height: auto;
+        background-color: #b1b1b1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        position: relative;
+        border-radius: 0.5rem;
+        padding: 0rem;
+        overflow: hidden;
+       
+    }
+    
+    
+    .over-lay-container{
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: #FF5F37;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+    }
+    
+    
+    .reaction-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+        padding: 1rem 1.5rem 1rem 1.5rem ;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+    }
+    .heart-container{
+        cursor: pointer;
+    }
+    .thumbs-up-container{
+        cursor: pointer;
+    }
+    .celebration-container{
+        cursor: pointer;
+    }
+    .clapping-container{
+        cursor: pointer;
+    }
+    .laugh-container{
+        cursor: pointer;
+    }
+    
+    .shocking-container{
+        cursor: pointer;
+    }
+    .thinking-container{
+        cursor: pointer;
+    }
+    .thumbs-down-container{
+        cursor: pointer;
+    }
+    
+    
+    .edit-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        column-gap: 1rem;
+    }
+    
+    .arrow-and-mic-off{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .arrow-up-container-new{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .mic-off-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -0.5rem;
+        cursor: pointer;
+    
+    }
+    
+    .cc-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .smile-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #C7D2FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .arrow-up-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    
+    .hand-up-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .three-dots-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 2rem;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .phnoe-end-icon-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 2rem;
+        background-color: #FF5F37;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    
+    }
+    
+    .right-container{
+        width: 100%;
+        height: 90vh;
+        background-color: #EBEBEB;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .Participants-and-chat-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line-container{
+        width: 100%;
+        height: 4px;
+        background-color: #a7a7a7;
+    }
+    
+    .Participants-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color:  #EBEBEB;
+        border-radius: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .chat-button{
+        width: 50%;
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+        font-size: medium;
+        border: none;
+        background-color: #F3F3F3;
+        border-radius: 0rem 0.5rem 0rem 0rem;
+    }
+    
+    .group-participant-container{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        overflow-y: scroll;
+        scrollbar-color: #9c9c9c;
+        scrollbar-width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-thumb{
+        background-color: #1F1F1F;
+        width: 2rem;
+    }
+    
+    .group-participant-container ::-webkit-scrollbar-track{
+        width: 2rem;
+        background-color: #adadad;
+    }
+    
+    
+    
+    .first-participant-chat{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 1rem 1rem 1rem 1rem;
+        column-gap: 0.5rem;
+        background-color: #F3F3F3;
+        border-radius: 0.5rem;
+    
+    }
+    
+    .Participant-and-time-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    
+    }
+    
+    .p-and-t-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .p-and-t-container h3{
+        font-weight: 500;
+        font-size: medium;
+    }
+    
+    .p-and-t-container p{
+        font-size: small;
+        font-weight: 300;
+    }
+    
+    .partici-chat{
+        width: 100%;
+        height: auto;
+    }
+    
+    .partici-chat p{
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    .input-and-send-container{
+        width: 94%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff;
+        margin-top: 2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 0.5rem;
+        
+    }
+    
+    .input-container input{
+        width: 100%;
+        height: auto;
+        background: none;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: medium;
+    
+    
+    }
+    
+    .send-button-container{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        background-color: #F3F3F3;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+}
